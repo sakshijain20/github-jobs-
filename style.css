@@ -1,6 +1,7 @@
+
 .image{
 	width: 100%;
-	max-height: 240px;
+	max-height: 200px;
 }
 
 * {
@@ -19,12 +20,19 @@ input
   align-items: center;
 }
 
-/* Add some margins for each label */
+.search-inline{
+  padding: 8px;
+  margin-left: 12px;
+  margin-right: 12px;
+  
+}
+
+
 .form-inline label {
   margin: 5px 10px 5px 0;
 }
 
-/* Style the input fields */
+
 .form-inline input {
   vertical-align: middle;
   margin: 5px 10px 5px 0;
@@ -33,7 +41,6 @@ input
   border: 1px solid #ddd;
 }
 
-/* Style the submit button */
 .form-inline button {
   padding: 10px 24px;
   background-color: dodgerblue;
@@ -133,3 +140,95 @@ input
 }
 
 
+
+.describe-bar{
+  display: inline-block;
+
+}
+
+
+
+.description-body{
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: 16px;
+}
+
+
+.description-company-name > .job-location{
+    margin-top: 16px;
+    font-size: 20px;
+    color: black;
+}
+
+.job-view-title{
+  font-size: 32px;
+  color: gray;
+  margin-top: 50px;
+  margin-left: 24px;
+}
+
+.row {
+  white-space: nowrap;
+}
+
+.row > div {
+  width: 100%;
+  padding: 20px;
+  margin: 12px;
+  display: inline-block;
+}
+
+.apply-now-button{
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: #2E5090;
+    cursor: pointer;
+}
+.job-view-site{
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: #2E5090;
+    margin-top: 120px;
+    margin-left: 80px;
+}
+.description-title,.description_job-type{
+  font-size: 20px;
+  color: gray;
+  margin: 12px; 
+
+}
+.job-title{
+  font-size: 28px;
+  color: #F39C12  ;
+  margin: 12px; 
+
+}
+
+
+.search-btn{
+  background-color: #5190ED;
+  color: 
+}
+
+.container {
+  display: flex;
+}
+
+.job-company-logo
+{
+  height: 200px;
+  width: 240px;
+  background-color: #9CCC65 ;
+  margin-left: 200px;
+  margin-right: 20px;
+  margin-top: 36px;
+}

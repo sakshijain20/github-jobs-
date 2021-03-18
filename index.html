@@ -17,17 +17,14 @@
 
   <img src="https://images.all-free-download.com/images/graphiclarge/vector_abstract_blue_background_148819.jpg" class="img-responsive image" alt="background-image"> 
 
-  <div class="container form-check">
-  	<form class="form-inline">
-    <input type="text" class="form-control" id="title" placeholder="Filter by title,companies ,expertise..." name="title">
-    <input type="text" class="form-control" id="location" placeholder="Filter by location" name="location">
-	    <label class="form-check-label">
-		<input class="form-check-input" type="checkbox" name="full-time"> Full Time Only
-		</label>
-	<button type="submit" class="btn btn-primary" onclick="searchFunc">Search</button>
-  	</form>
-  </div>
-
+<div style="display: inline-block;" class="search-box">
+            <input class="search-inline" style="width: auto;" type="text" id="s-title" name="s-title" placeholder="Filter by title, companies, expertise...">
+            <input class="search-inline" type="text" id="s-location" name="s-location" placeholder="Filter by location">
+            <input class="search-inline" type="checkbox" id="s-full-time" name="s-full-time">
+            <label class="search-inline" for="fulltimecheck">Full Time only</label>
+            <button class="search-btn" type="button" id="search-button" onclick="searchFunc()">Search</button>
+        
+    </div>
 
 
 
