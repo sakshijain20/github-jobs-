@@ -157,7 +157,8 @@ input
     margin-left: auto;
     margin-right: auto;
     width: 70%;
-    margin-top: 16px;
+    margin-top: 12px;
+    font-size: 20px;
 }
 
 
@@ -169,8 +170,8 @@ input
 
 .job-view-title{
   font-size: 32px;
-  color: gray;
-  margin-top: 50px;
+  color: black;
+  margin-top: 100px;
   margin-left: 24px;
 }
 
@@ -201,8 +202,6 @@ input
     width: 100px;
     color: white;
     background-color: #2E5090;
-    margin-top: 120px;
-    margin-left: 80px;
 }
 .description-title,.description_job-type{
   font-size: 20px;
