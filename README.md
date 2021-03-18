@@ -25,7 +25,9 @@
 ## Mobile View
   
  ### Home Page
-  ![dv]()
+  ![dv](https://github.com/sakshijain20/GitHub-Jobs-/blob/master/images/m-v.png)
  
 ### Job Description Page
- ![dv]()
+ ![dv](https://github.com/sakshijain20/GitHub-Jobs-/blob/master/images/mobile-v.png)
+ 
+ ![dv](https://github.com/sakshijain20/GitHub-Jobs-/blob/master/images/mobile-view.png)
