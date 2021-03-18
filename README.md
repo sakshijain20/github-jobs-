@@ -15,9 +15,17 @@
    ### Job Description Page
    1:
    
-   ![dv](https://github.com/sakshijain20/GitHub-Jobs/blob/master/images/Screenshot%202021-03-18%20at%204.20.54%20PM.png)
+   ![dv](https://github.com/sakshijain20/GitHub-Jobs-/blob/master/images/Screenshot%202021-03-18%20at%205.18.20%20PM.png)
    
    2:
    
-   ![dv](https://github.com/sakshijain20/GitHub-Jobs/blob/master/images/Screenshot%202021-03-18%20at%204.21.00%20PM.png)
+   ![dv](https://github.com/sakshijain20/GitHub-Jobs-/blob/master/images/Screenshot%202021-03-18%20at%205.18.29%20PM.png)
    
+   
+## Mobile View
+  
+ ### Home Page
+  ![dv]()
+ 
+### Job Description Page
+ ![dv]()
