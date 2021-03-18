@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Jobs API</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <script src="index.js"></script>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+</head>
+
+<body>
+
+  <img src="https://images.all-free-download.com/images/graphiclarge/vector_abstract_blue_background_148819.jpg" class="img-responsive image" alt="background-image"> 
+
+  <div class="container form-check">
+  	<form class="form-inline">
+    <input type="text" class="form-control" id="title" placeholder="Filter by title,companies ,expertise..." name="title">
+    <input type="text" class="form-control" id="location" placeholder="Filter by location" name="location">
+	    <label class="form-check-label">
+		<input class="form-check-input" type="checkbox" name="full-time"> Full Time Only
+		</label>
+	<button type="submit" class="btn btn-primary" onclick="searchFunc">Search</button>
+  	</form>
+  </div>
+
+
+
+
+
+
+<div id="card-body" ></div>
+
+<button type="button" onclick="loadDoc()" class="load_btn">Load data</button>
+
+
+</body>
+</html>
