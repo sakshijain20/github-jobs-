@@ -1,7 +1,11 @@
 
-.image{
-	width: 100%;
-	max-height: 200px;
+.heading{
+	font-size: 52px;
+  font-family: Chalkduster, fantasy;
+  font-style: italic;
+  margin-left: 560px;
+  color: #D81B60 ;
+ margin-bottom: 40px;
 }
 
 * {
@@ -22,8 +26,8 @@ input
 
 .search-inline{
   padding: 8px;
-  margin-left: 12px;
-  margin-right: 12px;
+  margin-left: 32px;
+  margin-right: 32px;
   
 }
 
