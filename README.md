@@ -7,27 +7,16 @@
   ### Home Page 
    1:
    
-   ![dv](https://github.com/sakshijain20/GitHub-Jobs/blob/master/images/Screenshot%202021-03-18%20at%204.38.39%20PM.png)
+   ![dv](https://github.com/sakshijain20/github-jobs-/blob/master/Screenshot%202021-03-21%20at%2011.06.45%20PM.png)
    
    2:
-   ![dv](https://github.com/sakshijain20/GitHub-Jobs/blob/master/images/Screenshot%202021-03-18%20at%204.21.35%20PM.png)
+   ![dv](https://github.com/sakshijain20/github-jobs-/blob/master/Screenshot%202021-03-21%20at%2011.06.20%20PM.png)
    
+   3:
+   ![dv](https://github.com/sakshijain20/github-jobs-/blob/master/Screenshot%202021-03-21%20at%2011.07.17%20PM.png)
    ### Job Description Page
    1:
    
-   ![dv](https://github.com/sakshijain20/GitHub-Jobs-/blob/master/images/Screenshot%202021-03-18%20at%205.18.20%20PM.png)
-   
-   2:
-   
-   ![dv](https://github.com/sakshijain20/GitHub-Jobs-/blob/master/images/Screenshot%202021-03-18%20at%205.18.29%20PM.png)
-   
-   
-## Mobile View
+   ![dv](https://github.com/sakshijain20/github-jobs-/blob/master/Screenshot%202021-03-21%20at%2011.07.36%20PM.png)
   
- ### Home Page
-  ![dv](https://github.com/sakshijain20/GitHub-Jobs-/blob/master/images/m-v.png)
- 
-### Job Description Page
- ![dv](https://github.com/sakshijain20/GitHub-Jobs-/blob/master/images/mobile-v.png)
- 
- ![dv](https://github.com/sakshijain20/GitHub-Jobs-/blob/master/images/mobile-view.png)
+   
