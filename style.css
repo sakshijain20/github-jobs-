@@ -1,80 +1,128 @@
+:root {
+    --primary-color: #3e37bb;
+    --bg-color: #F1EAFA;
+    --btn-bg-color: rgba(62,55,187,1);
+    --card-border-color: #000000;
+    --main-bg-color: rgb(243 239 239);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header{
+    position: relative;
+}
+
+.header-items{
+    display: flex;
+    padding: 40px 80px 120px 80px;
+    align-items: center;
+    background: linear-gradient(#3352D1,#985EEB);
+    color: white;
+    border-radius: 0 0 0 100px;
+}
+
+
+.search-bar{
+    display: flex;
+    width: 60%;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1EAFA;;
+    padding: 0px 24px;
+    color: black;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 90%;
+    
+}
+
+.d {
+    height: 2em;
+    margin: 0px 12px;
+    border-left: 1px solid rgba(0, 0, 0, 0.322);
+  }
+
+
+#s-title, #s-location{
+    flex-grow: 2;
+    border: none ;
+    height: 50px;
+    color: var(--font-color);
+    background-color: var(--bg-color);
+}
+
+#s-title:focus , #s-location:focus{
+    outline: none;
+}
+
+#search-button{
+    height: 35px;
+    width: 80px;
+    border: none;
+    background-color: var(--btn-bg-color);
+    margin-left: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width:600px){
+    .search-bar{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        justify-content: space-between;
+        background-color: var(--bg-color);
+        padding: 10px 20px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -15%;
+        border-radius: 5px;
+        height: 300px;
+    }
+
+    .vl {
+        border-left: none;
+        border-bottom: 1px #000000;
+        width: 100%;
+      }
+
+      
+    }
+
+    #s-full-time{
+        margin: 10px;
+    }
+
+    #s-title , #s-location{
+        flex-grow: 2;
+        border: none ;
+        height: 50px;
+        text-align: center;
+    }
+
+    .header-items{
+        padding: 40px 60px 120px 60px;
+    }
+
+    
+}
+
+
+
+
 
 .heading{
-	font-size: 52px;
+  font-size: 52px;
   font-family: Chalkduster, fantasy;
   font-style: italic;
-  
+  margin-left: 560px;
   color: #D81B60 ;
  margin-bottom: 40px;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 4px;
-  padding: 8px;
-}
-input
-{
-	max-width: 100%;
-}
-
-.form-inline {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-}
-
-.search-inline{
-  padding: 8px;
-  margin-left: 32px;
-  margin-right: 32px;
-  
-}
-
-
-.form-inline label {
-  margin: 5px 10px 5px 0;
-}
-
-
-.form-inline input {
-  vertical-align: middle;
-  margin: 5px 10px 5px 0;
-  padding: 10px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-}
-
-.form-inline button {
-  padding: 10px 24px;
-  background-color: dodgerblue;
-  border: 1px solid #ddd;
-  color: white;
-}
-
-.form-inline button:hover {
-  background-color: royalblue;
-}
-
-/* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than 800px wide */
-@media (max-width: 800px) {
-  .form-inline input {
-    margin: 10px 0;
-  }
-
-  .form-inline {
-    flex-direction: column;
-    align-items: stretch;
-  }
-}
-
-.row {
-  white-space: nowrap;
-}
-
-.row > div {
-  width: 150px;
-  display: inline-block;
 }
 
 #card-body{
@@ -89,7 +137,7 @@ input
     height: 240px;
     max-width: 280px;
     max-height: 360px;
-    background-color: #B3E5FC;
+    background-color: #FDF8FF;
     padding: 30px 30px;
     margin: 20px 10px;
     position: relative;
@@ -228,10 +276,10 @@ input
 
 .job-company-logo
 {
-  height: 160px;
-  width: 160px;
+  height: 200px;
+  width: 240px;
   background-color: #9CCC65 ;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 200px;
+  margin-right: 20px;
   margin-top: 36px;
 }
